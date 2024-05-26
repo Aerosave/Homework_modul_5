@@ -71,7 +71,7 @@ class MainClass
 
         if (userData.PetNames.Length > 0)
         {
-            Console.WriteLine("Имена ваших питомцев: " + string.Join(", ", userData.FavoriteColor));
+            Console.WriteLine("Имена ваших питомцев: " + string.Join(", ", userData.PetNames));
         }
 
         if (userData.FavoriteColor.Length > 1)
